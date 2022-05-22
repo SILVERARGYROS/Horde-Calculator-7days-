@@ -6,7 +6,7 @@ int main (void)
 
     int day; 
 
-    printf("Welcome to Day calculator for & days to die\n");
+    printf("Welcome to Horde calculator for 7 Days to Die\n");
     printf("Please enter the day you are in: ");
 
     int dayCheck = 0;
