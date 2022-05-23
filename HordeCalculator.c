@@ -1,12 +1,54 @@
 #include <stdio.h>
 
+void calculateDays(void);
 int main (void)
 {
     // system("clear");
 
-    int day; 
+    printf("Welcome to Horde Calculator for 7 Days to Die\n");
 
-    printf("Welcome to Horde calculator for 7 Days to Die\n");
+    printf("Press 1 to check the number of days until next Horde Night\n");
+    printf("Press 2 to calculate the total number of zombies incoming\n");
+    printf("Press 3 to calculate the max number of zombies that will spawn at once\n");
+    printf("Press 4 to view the possible zombie types that will attack\n");
+    printf("Press 5 to view/change settings\n");
+    printf("Press 0 to exit\n");
+
+    int input;
+
+    scanf("%d", &input);
+
+    switch(input)
+    {
+        case 1:
+            calculateDays();
+        break;
+
+
+        case 2:
+
+        break;
+
+
+        case 3:
+
+        break;
+
+
+        case 4:
+
+        break;
+
+
+        case 5:
+
+        break;
+    }
+}
+
+void calculateDays (void)
+{
+    int day; 
     printf("Please enter the day you are in: ");
 
     int dayCheck = 0;
